@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contatti | Laura Ilari</title>
+<meta name="description" content="Contatta lo Studio Ilari — Via Massimo D'Antona 2, 63812 Montegranaro (FM). Tel. 0734 067200.">
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-contatti">
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Studio Ilari — Home">
+    <img src="assets/logo.png" alt="Logo Studio Ilari">
+    <span>STUDIO ILARI</span>
+  </a>
+  <button class="nav-toggle" aria-label="Apri menu" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor"/></svg>
+  </button>
+  <nav class="main-nav" aria-label="Navigazione principale">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="servizi.html">Servizi</a></li>
+      <li><a href="contatti.html" class="active">Contatti</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="hero-band">
+  <img src="assets/logo.png" alt="LI Studio Ilari">
+</div>
+
+<main>
+  <section class="section container">
+    <div class="contact-head">
+      <img src="assets/logo.png" alt="Logo Studio Ilari">
+      <h1>Studio Ilari</h1>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Modulo -->
+      <form id="contact-form" novalidate>
+        <div class="form-field">
+          <label for="nome">Nome *</label>
+          <input id="nome" name="nome" type="text" required autocomplete="given-name">
+        </div>
+        <div class="form-field">
+          <label for="cognome">Cognome *</label>
+          <input id="cognome" name="cognome" type="text" required autocomplete="family-name">
+        </div>
+        <div class="form-field">
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" required autocomplete="email">
+        </div>
+        <div class="form-field">
+          <label for="oggetto">Oggetto *</label>
+          <input id="oggetto" name="oggetto" type="text" required>
+        </div>
+        <div class="form-field">
+          <label for="messaggio">Messaggio *</label>
+          <textarea id="messaggio" name="messaggio" required></textarea>
+        </div>
+        <button class="btn-submit" type="submit">Invia</button>
+        <p class="form-note" id="form-note">Il modulo apre il tuo programma di posta con il messaggio già compilato.</p>
+      </form>
+
+      <!-- Info e mappa -->
+      <div class="info-block">
+        <h2><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>I Nostri Indirizzi</h2>
+        <p>VIA MASSIMO D'ANTONA 2<br>63812 MONTEGRANARO</p>
+        <h2><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>Chiama ora</h2>
+        <p>UFF:&nbsp;&nbsp;<a href="tel:0734067200">0734 067200</a></p>
+        <iframe class="map-wrap" title="Mappa — Studio Ilari, Via Massimo D'Antona 2, Montegranaro"
+          src="https://maps.google.com/maps?q=Via%20Massimo%20D%27Antona%202%2C%2063812%20Montegranaro%20FM%2C%20Italia&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Logo Studio Ilari">
+        <strong>Studio Ilari</strong>
+      </div>
+      <p class="footer-legal">© 2025 www.laurailari.com P.Iva 11132461002</p>
+    </div>
+    <p class="footer-tel">UFF:&nbsp;&nbsp;<a href="tel:0734067200">0734 067200</a></p>
+  </div>
+  <div class="footer-bottom">
+    <span class="spacer"></span>
+    <div class="social-row">
+      <a href="https://www.facebook.com/profile.php?id=100067862601884" target="_blank" rel="noopener" aria-label="Facebook"><img src="assets/icon-facebook.png" alt="Facebook"></a>
+      <a href="https://www.linkedin.com/in/laura-ilari-26683777/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="assets/icon-linkedin.png" alt="LinkedIn"></a>
+    </div>
+    <span class="spacer" style="text-align:right"><small>Powered MAM profit</small></span>
+  </div>
+</footer>
+
+<script src="src/main.js"></script>
+</body>
+</html>
