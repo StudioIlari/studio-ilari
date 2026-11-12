@@ -97,7 +97,9 @@ a{color:inherit}
 .hr-line{border:0;border-top:1px solid #C9C9C9;margin:0 auto;max-width:980px}
 
 /* ----- Home: notizie ----- */
-.news{min-height:340px}
+.news{min-height:340px;padding-bottom:44px}
+.fb-embed{display:flex;justify-content:center;padding:30px 16px 10px}
+.fb-embed iframe{max-width:100%}
 
 /* ----- Home: contatti ----- */
 .contact-title{
