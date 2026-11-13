@@ -22,7 +22,7 @@ if (form) {
       `Email: ${v('email')}\n\n` +
       `${v('messaggio')}`;
     window.location.href =
-      'mailto:info@ilarilaura.it?subject=' + encodeURIComponent(subject) +
+      'mailto:info@laurailari.com?subject=' + encodeURIComponent(subject) +
       '&body=' + encodeURIComponent(body);
     const note = document.getElementById('form-note');
     if (note) note.textContent = 'Si sta aprendo il tuo programma di posta con il messaggio già compilato. Grazie per averci contattato.';
